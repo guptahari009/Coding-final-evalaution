@@ -1,0 +1,271 @@
+/* <style> */
+#Fistbox {
+  height: 600px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#newimgstyle {
+  cursor: pointer;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.img > img {
+  width: 100%;
+  height: 100%;
+}
+#overimgtext > button {
+  padding: 4% 15%;
+  border: none;
+  font-size: large;
+  background-color: #ee4a1b;
+  color: white;
+}
+#overimgtext {
+  height: 200px;
+  width: 25%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  /* border: 2px solid blue; */
+  position: absolute;
+  z-index: 1;
+  top: 79%;
+  left: 60%;
+}
+#Fistbox > .img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+  border: 0.2px solid transparent;
+}
+#Secondbox {
+  height: 500px;
+  width: 100%;
+  /* margin-top: 02%; */
+  border: 1px solid transparent;
+}
+#Secondbox > .innerSecondbox {
+  height: 100%;
+  width: 70%;
+  border: 1px solid transparent;
+  margin: auto;
+}
+#Secondbox > .innerSecondbox > #Firsttext {
+  height: 07%;
+  width: 100%;
+  font-size: medium;
+  text-align: justify;
+  border: 1px solid transparent;
+}
+#Secondbox > .innerSecondbox > #Second_text {
+  height: 10%;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  font-size: large;
+  line-height: 10px;
+  justify-content: space-between;
+}
+#Secondbox > .innerSecondbox > #Third_Imgbox {
+  height: 75%;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-between;
+}
+#P_box {
+  height: 100%;
+  width: 19%;
+  border: 1px solid transparent;
+}
+#P_box > img {
+  height: 80%;
+  width: 100%;
+  margin-bottom: 05%;
+}
+#P_box > div {
+  text-align: center;
+  font-size: medium;
+}
+
+#Thirdbox {
+  height: 550px;
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #fff6fb;
+}
+#Thirdbox > .innerThirdbox {
+  height: 90%;
+  width: 90%;
+  border: 1px solid transparent;
+  margin: auto;
+}
+#Thirdbox > .innerThirdbox > #Firsttext {
+  height: 07%;
+  width: 100%;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 03%;
+  border: 1px solid transparent;
+}
+#Thirdbox > .innerThirdbox > #Second_text {
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  border: 1px solid transparent;
+}
+#Thirdbox > .innerThirdbox > #Third_Imgbox {
+  height: 70%;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  margin-top: 02%;
+  justify-content: space-between;
+}
+#Thirdbox_Products {
+  height: 100%;
+  width: 19.7%;
+  border: 1px solid transparent;
+}
+#Thirdbox_Products > img {
+  height: 85%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#Thirdbox_Products > h3 {
+  height: 7%;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 05%;
+  color: tomato;
+  border: 1px solid transparent;
+}
+.addColor {
+  background-color: #fff7f3;
+}
+.Dhruv_hover {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  /* height: 400px; */
+  border: 2px solid transparent;
+  top: 190px;
+  background-color: white;
+}
+#Middlebox {
+  height: 600px;
+  width: 90%;
+  display: flex;
+  padding: 5%;
+  gap: 15%;
+  border: 0.2px solid transparent;
+}
+
+#leftMiddlebox > div > hr {
+  width: 20%;
+  margin-left: 0;
+  border: 1px solid #ee4a1b;
+}
+#leftMiddlebox > div {
+  line-height: 100%;
+  margin-left: 25%;
+}
+#leftMiddlebox > img {
+  height: 80%;
+  width: 100%;
+  border: 0.1px solid transparent;
+}
+#leftMiddlebox {
+  height: 100%;
+  width: 45%;
+  border: 0.2px solid transparent;
+}
+#rightMiddlebox {
+  height: 100%;
+  width: 45%;
+  border: 0.2px solid transparent;
+}
+#rightMiddlebox > div > hr {
+  width: 20%;
+  margin-left: 0;
+  border: 1px solid #ee4a1b;
+}
+#rightMiddlebox > div {
+  line-height: 100%;
+  margin-left: 25%;
+}
+#rightMiddlebox > img {
+  height: 80%;
+  width: 100%;
+  border: 0.1px solid transparent;
+}
+#rightMiddlebox {
+  height: 100%;
+  width: 45%;
+  border: 0.2px solid transparent;
+}
+.secondimg > img {
+  width: 100%;
+  height: 100%;
+}
+#Secondoverimgtext > button {
+  padding: 5% 15%;
+  border: none;
+  font-size: large;
+  background-color: teal;
+  color: white;
+}
+#Secondoverimgtext {
+  height: 200px;
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  /* border: 2px solid blue; */
+  position: absolute;
+  z-index: 1;
+  top: 325%;
+  left: 60%;
+}
+#Fistbox > .secondimg {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+  border: 0.2px solid transparent;
+}
+.Thirdimg > img {
+  width: 100%;
+  height: 100%;
+}
+#Thirdoverimgtext > button {
+  padding: 5% 15%;
+  border: none;
+  font-size: large;
+  background-color: #cb0fa8;
+  color: black;
+}
+#Thirdoverimgtext {
+  height: 200px;
+  width: 25%;
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  /* border: 2px solid blue; */
+  position: absolute;
+  z-index: 1;
+  top: 615%;
+  left: 20%;
+}
+#Fistbox > .Thirdimg {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+  border: 0.2px solid transparent;
+}
+/* </style> */

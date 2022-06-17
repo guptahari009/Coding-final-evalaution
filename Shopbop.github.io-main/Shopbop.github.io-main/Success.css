@@ -1,0 +1,25 @@
+#Success_container {
+  width: 100%;
+  /* border: 0.1px solid red; */
+}
+#Success_container > div {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  border: 0.2px solid transparent;
+  background-color: black;
+}
+#P01 {
+  width: 40%;
+  border: 0.2px solid transparent;
+  margin: auto;
+  margin-top: 5%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+#P02 {
+  text-align: center;
+  color: yellow;
+}

@@ -1,0 +1,112 @@
+/*    <style> */
+#FirstContainer {
+  height: 250px;
+  width: 80%;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: 2%;
+}
+#Divforstyles {
+  height: 83%;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+}
+#headtext {
+  height: 10%;
+  width: 100%;
+  margin-top: 0%;
+  font-weight: bolder;
+  font-size: x-large;
+  border: 1px solid transparent;
+}
+#ProductCategory > div:hover {
+  font-weight: bold;
+}
+#ProductCategory > div {
+  padding: 4%;
+  cursor: pointer;
+}
+#ProductCategory > b {
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+#ProductCategory {
+  height: 150%;
+  width: 20%;
+  border: 1px solid transparent;
+}
+#ProductPicture {
+  height: 97%;
+  width: 80%;
+  border: 1px solid transparent;
+}
+#ProductPicture > img {
+  height: 100%;
+  width: 100%;
+}
+#SecondContainer {
+  /* height: 1000px; */
+  width: 80%;
+  border: 1px solid transparent;
+  margin: auto;
+}
+#Sortingbox {
+  height: 2%;
+  width: 99%;
+  text-align: end;
+  border: 1px solid transparent;
+}
+#sortingdropdown {
+  margin-left: 1%;
+  border: 0;
+}
+#Products {
+  border: 1px solid transparent;
+  width: 80%;
+  margin-left: 20%;
+}
+#innerboxProducts {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  justify-content: space-between;
+}
+#singleproductbox {
+  height: 400px;
+  width: 24.5%;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-bottom: 2%;
+}
+#singleimagebox:hover {
+  cursor: pointer;
+}
+#singleimagebox {
+  height: 80%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#singleproductbox > div {
+  margin-bottom: 2%;
+}
+#singleproductbox > div:nth-child(2),
+#singleproductbox > div:nth-child(4) {
+  font-weight: bolder;
+}
+#singledressnamebox {
+  font-size: small;
+}
+#singleimagebox:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  opacity: 0.8;
+  -webkit-transition: opacity 100ms ease-in-out 0s;
+  transition: opacity 800ms ease-in-out 0s;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0s;
+  transition: -webkit-transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
+  cursor: pointer;
+}
+/* </style> */

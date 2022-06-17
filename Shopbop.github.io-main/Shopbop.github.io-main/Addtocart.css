@@ -1,0 +1,130 @@
+#cartcontainer {
+  height: 400px;
+  width: 100%;
+  border: 0.1px solid transparent;
+  /* background-color: #f9f9f9; */
+  margin-top: 5%;
+}
+#Mainbox_cart {
+  height: 100%;
+  width: 80%;
+  border: 0.2px solid transparent;
+  margin: auto;
+  display: flex;
+}
+#Product_Cartbox {
+  height: 100%;
+  width: 65%;
+  border: 0.1px solid transparent;
+}
+#bag_text_cart > div:nth-child(2) {
+  line-height: 50%;
+}
+#bag_text_cart {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  border: 0.1px solid transparent;
+}
+#bag_text_cart > img {
+  height: 100%;
+  width: 10%;
+  margin-right: 2%;
+  border: 0.1px solid transparent;
+}
+#cart_Product {
+  /* height: 79%; */
+  width: 100%;
+  border: 0.1px solid transparent;
+}
+#Product_totalbox {
+  height: 100%;
+  width: 35%;
+  border: 0.1px solid transparent;
+}
+#details_cart {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  border: 0.2px solid transparent;
+}
+#checkout:hover {
+  cursor: pointer;
+}
+#remove_cart {
+  height: 15%;
+  width: 100%;
+  text-align: end;
+  border: 0.2px solid transparent;
+}
+#remove_cart > button {
+  padding: 2%;
+  margin-right: 2%;
+  background-color: white;
+  border: 0.2px solid black;
+}
+#Cart_Img > img {
+  height: 100%;
+  width: 100%;
+}
+#Cart_Img {
+  height: 90%;
+  width: 20%;
+  padding: 2%;
+  border: 0.2px solid transparent;
+}
+#Cart_Product_text {
+  height: 90%;
+  width: 80%;
+  padding: 2%;
+  font-size: large;
+  border: 0.2px solid transparent;
+}
+#Product_totalbox > div:nth-child(1),
+#Product_totalbox > div:nth-child(5) {
+  height: 12%;
+  width: 100%;
+  border: 0.2px solid transparent;
+  margin-bottom: 2%;
+}
+#Product_totalbox > div:nth-child(8) {
+  height: 15%;
+  width: 100%;
+  color: white;
+  font-size: x-large;
+  justify-content: center;
+  line-height: 250%;
+  background-color: #db3b14;
+  border: 0.2px solid #db3b14;
+}
+#Product_totalbox > div:nth-child(2),
+#Product_totalbox > div:nth-child(4),
+#Product_totalbox > div:nth-child(7),
+#Product_totalbox > div:nth-child(3) {
+  height: 8%;
+  width: 100%;
+  border: 0.2px solid transparent;
+  margin-bottom: 4%;
+}
+#Product_totalbox > div > input {
+  padding: 2%;
+  width: 68%;
+  background-color: #f8f7f7;
+  border: 0;
+}
+#Product_totalbox > div > h1 {
+  line-height: 0;
+}
+#Product_totalbox > div {
+  display: flex;
+  font-size: medium;
+  line-height: 150%;
+  justify-content: space-between;
+}
+#Product_totalbox > div > button {
+  padding: 4%;
+  width: 25%;
+  border: 0.1px solid black;
+  background-color: white;
+  color: gray;
+}

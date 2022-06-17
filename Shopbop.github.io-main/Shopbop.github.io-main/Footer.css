@@ -1,0 +1,44 @@
+/* Footer CSS Start */
+/* <style> */
+#F_container {
+  width: 100%;
+  height: 300px;
+  border: 1px solid transparent;
+  margin-top: 40px;
+  background-color: #faf9f9;
+}
+#footerbox {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: space-evenly;
+}
+#UL {
+  list-style-type: none;
+  font-size: small;
+}
+#UL > li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#UL > li:hover {
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+.addcolor {
+  color: tomato;
+}
+#TMC_Footer {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+#TMC_Footer > p > span {
+  text-decoration: underline;
+}
+/* </style> */
+/* Footer CSS End */
